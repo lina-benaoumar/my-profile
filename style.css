@@ -1,0 +1,115 @@
+
+h1{ 
+	text-align:center;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 50px;
+
+	 }
+h2{
+		color: #532E1C;
+		font-size : 20px;
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+		
+		}
+body{
+		background-color: #145374;
+		color: #34626C;
+		line-height: 1.9;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: justify-all;
+
+	}
+a{
+	text-decoration: none;
+	color: #9088D4;
+	transition: color 0.3s ease;
+	font-weight: bold;
+
+}
+
+	a:hover {
+		color: #A20A0A;
+	}
+
+
+
+/* Custom design with class */
+
+.container{
+		width: 1000px;
+   	 	margin: 45px auto;
+    	
+}
+@media (max-width : 960px){
+	.container {
+		width : 700px;
+
+	}
+}
+@media (max-width: 720px){
+	.container{
+		width: 500px
+	}
+}
+@media (max-width : 540px){
+	.container{ 
+		width : 300px;
+	 }
+}
+
+.card-pink{
+   	 	margin: 50px 0px auto;
+    	background: #FAE0DF;
+    	padding: 60px;
+    	box-shadow: 0px 10px 30px #70ADB5;
+    	border-radius: 4px;	
+    	border: #FAE0DF;
+    	text-align: center;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	
+
+
+}
+
+.btn-green{
+	background-color: #145374;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px
+}
+.btn-green:hover {
+	background-color: #ED6663;
+	color: #34626C;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li{
+	display : inline;
+	padding : 10px;
+}
+.list-inline i{
+	font-size : 50px;
+	color : #145374;
+}
+
+.list-inline i:hover{
+	font-size : 50px;
+	color : #34626C;
+}
+/* Design adjustments using id (1% design remaining)*/
+#introduction p {
+	margin-bottom: 50px
+
+}
